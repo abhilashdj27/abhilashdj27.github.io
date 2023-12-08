@@ -9,7 +9,6 @@
       margin: 0;
       padding: 0;
       background-color: #f4f4f4;
-      color: #333; /* Adding default text color */
     }
     header {
       background-color: #333;
@@ -31,9 +30,18 @@
       display: inline;
       margin-right: 20px;
     }
+    /* Modified style for navigation links to improve contrast */
     nav ul li a {
-      color: #fff; /* Adjusting link color */
-      text-decoration: none; /* Removing underlines from links */
+      color: #fff; /* Changing the text color to white */
+      text-decoration: none;
+      /* Increasing contrast by changing the background color */
+      background-color: #555;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+    /* Adjusting hover effect for better visibility */
+    nav ul li a:hover {
+      background-color: #666;
     }
     section {
       padding: 20px;
@@ -75,11 +83,12 @@
 
   <nav>
     <ul>
-      <li><a href="#" style="color: rgb(0, 0, 238); background-color: #444;">Home</a></li>
-      <li><a href="#" style="color: #fff;">Movies</a></li>
-      <li><a href="#" style="color: #fff;">TV Shows</a></li>
-      <li><a href="#" style="color: #fff;">About</a></li>
-      <li><a href="#" style="color: #fff;">Contact</a></li>
+      <!-- Modified navigation links with enhanced contrast -->
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Movies</a></li>
+      <li><a href="#">TV Shows</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
   </nav>
 
